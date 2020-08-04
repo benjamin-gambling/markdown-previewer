@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+
+body {
+  padding-top: 25px;
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.footer {
+  padding: 10px;
+  width: 450px;
+  text-align: center;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: #fff;
+  a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+@media (max-width: 750px) {
+  body {
+    padding-top: 0px;
+  }
+
+  .footer {
+    padding: 5px;
+    margin: 5px auto 5px auto;
+  }
+}
