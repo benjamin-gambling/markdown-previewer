@@ -1,8 +1,8 @@
 {
   "homepage": "http://benjamin-gambling.github.io/markdown-previewer",
-  "name": "markdown-previewer",
+  "name": "@benjamin-gambling/markdown-previewer",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -38,5 +38,23 @@
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "node-sass": "^4.14.1"
+  },
+  "description": "A simple React Web App that you can use to preview markdown text, a great tool to vreate README.md files.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamin-gambling/markdown-previewer.git"
+  },
+  "keywords": [
+    "md",
+    "readme",
+    "markdown",
+    "previewer",
+    "react"
+  ],
+  "author": "Benjamin Gambling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjamin-gambling/markdown-previewer/issues"
   }
 }
