@@ -1,7 +1,7 @@
 {
   "homepage": "http://benjamin-gambling.github.io/markdown-previewer",
   "name": "@benjamin-gambling/markdown-previewer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
